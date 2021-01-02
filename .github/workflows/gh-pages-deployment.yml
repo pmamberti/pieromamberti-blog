@@ -6,7 +6,7 @@ on:
      - master
   schedule:
     # Run every ten minutes
-    - cron: '*/10 * * * *'
+    - cron: '*/60 * * * *'
 
 jobs:
   build-deploy:
