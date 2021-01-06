@@ -12,7 +12,10 @@ jobs:
   build-deploy:
     runs-on: ubuntu-18.04
     steps:
-    - uses: actions/checkout@v1                  
+    - uses: actions/checkout@v2
+      with:
+        submodules: recursive  # Fetch the Docsy theme
+        fetch-depth: 0         # Fetch all history for .GitInfo and .Lastmod
 
     - name: Install Ruby Dev                     
       run: sudo apt-get install ruby-dev
