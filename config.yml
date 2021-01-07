@@ -12,15 +12,15 @@ params:
         imageWidth: 120 # custom size
         imageHeight: 120 # custom size
         buttons:
-            - name: Archive
+          - name: Archive
             url: "/archive"
-            - name: Github
+          - name: Github
             url: "https://github.com/pmamberti"
 
     socialIcons: # optional
-        - name: "Twitter"
-            url: "https://twitter.com/pmamberti"
-        - name: "LinkedIn"
-            url: "https://www.linkedin.com/in/pmamberti"
-        - name: "Google"
-            url: "https://google.com"
+      - name: "Twitter"
+        url: "https://twitter.com/pmamberti"
+      - name: "LinkedIn"
+        url: "https://www.linkedin.com/in/pmamberti"
+      - name: "Google"
+        url: "https://google.com"
