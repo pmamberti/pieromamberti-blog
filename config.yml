@@ -2,3 +2,25 @@ baseURL: 'https://blog.pieromamberti.com/'
 languageCode: en-us
 title: Piero's Blog
 theme: hugo-PaperMod
+
+params:
+    profileMode:
+        enabled: true
+        title: "Buh Bah" # optional default will be site title
+        imageUrl: "https://media-exp1.licdn.com/dms/image/C4E03AQFAGIoTkWF-5w/profile-displayphoto-shrink_400_400/0/1610034962672?e=1615420800&v=beta&t=5wS1ICCEYcxA5LBovArk-7tU5l_DI8PqZpKfJ9slfEM" # optional
+        imageTitle: "PMamberti" # optional
+        imageWidth: 120 # custom size
+        imageHeight: 120 # custom size
+        buttons:
+            - name: Archive
+            url: "/archive"
+            - name: Github
+            url: "https://github.com/pmamberti"
+
+    socialIcons: # optional
+        - name: "Twitter"
+            url: "https://twitter.com/pmamberti"
+        - name: "LinkedIn"
+            url: "https://www.linkedin.com/in/pmamberti"
+        - name: "Google"
+            url: "https://google.com"
