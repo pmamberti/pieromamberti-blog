@@ -8,44 +8,26 @@ params:
   author: Piero Mamberti
   description: Piero il Finito
   profilePicture: "https://media-exp1.licdn.com/dms/image/C4E03AQFAGIoTkWF-5w/profile-displayphoto-shrink_400_400/0/1610034962672?e=1615420800&v=beta&t=5wS1ICCEYcxA5LBovArk-7tU5l_DI8PqZpKfJ9slfEM"
-
-menu:
-  main:
-    - name: Home
-      identifier: home
-      weight: 100
-      url: /
-    - name: Posts
-      weight: 200
-      identifier: posts
-      url: /post/
-    - name: About
-      weight: 300
-      identifier: about
-      url: /about/
+  socialIcons:
+    - icon: fab fa-twitter
+      title: Twitter
+      url: https://www.twitter.com/pmamberti
+    - icon: fab fa-linkedin
+      title: Linkedin
+      url: https://www.linkedin.com/in/pmamberti
 
 
-#     homeInfoParams:
-#       Title: Hi there wave
-#       Content: Can be Info, links, about...
-
-#     profileMode:
-#       enabled: false
-#       title: "Buh Bah" # optional default will be site title
-#       imageUrl: "https://media-exp1.licdn.com/dms/image/C4E03AQFAGIoTkWF-5w/profile-displayphoto-shrink_400_400/0/1610034962672?e=1615420800&v=beta&t=5wS1ICCEYcxA5LBovArk-7tU5l_DI8PqZpKfJ9slfEM" # optional
-#       imageTitle: "PMamberti" # optional
-#       imageWidth: 120 # custom size
-#       imageHeight: 120 # custom size
-#       buttons:
-#         - name: Archive
-#           url: "/archive"
-#         - name: Github
-#           url: "https://github.com/pmamberti"
-
-#     socialIcons: # optional
-#       - name: "Twitter"
-#         url: "https://twitter.com/pmamberti"
-#       - name: "LinkedIn"
-#         url: "https://www.linkedin.com/in/pmamberti"
-#       - name: "Google"
-#         url: "https://google.com"
+# menu:
+#   main:
+#     - name: Home
+#       identifier: home
+#       weight: 100
+#       url: /
+#     - name: Posts
+#       weight: 200
+#       identifier: posts
+#       url: /post/
+#     - name: About
+#       weight: 300
+#       identifier: about
+#       url: /about/
