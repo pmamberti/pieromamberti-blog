@@ -1,4 +1,4 @@
-name: GitHub Pages
+name: GitHub Pages Hugo Deploy
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
      - master
   schedule:
     # Run every ten minutes
-    - cron: '*/60 * * * *'
+    - cron: '0 6 * * *'
 
 jobs:
   build-deploy:
