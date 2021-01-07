@@ -4,6 +4,9 @@ title: Piero's Blog
 theme: anatole
 
 params:
+  title: Ciao 🙋‍♂️
+  author: Piero Mamberti
+  description: Piero il Finito
   profilePicture: "https://media-exp1.licdn.com/dms/image/C4E03AQFAGIoTkWF-5w/profile-displayphoto-shrink_400_400/0/1610034962672?e=1615420800&v=beta&t=5wS1ICCEYcxA5LBovArk-7tU5l_DI8PqZpKfJ9slfEM"
 
 menu:
