@@ -4,11 +4,14 @@ title: Piero's Blog
 theme: anatole
 
 params:
-  title: Hi! I'm Piero 🙋‍♂️
+  title: Hi 🙋‍♂️I'm Piero 
   author: Piero Mamberti
-  description: I happen to work as an IT Engineer, but nothing serious 😅
-  profilePicture: "https://media-exp1.licdn.com/dms/image/C4E03AQFAGIoTkWF-5w/profile-displayphoto-shrink_400_400/0/1610034962672?e=1615420800&v=beta&t=5wS1ICCEYcxA5LBovArk-7tU5l_DI8PqZpKfJ9slfEM"
+  description: I happen to work as an IT Engineer 🧑‍💻, but nothing serious 😅
+  profilePicture: images/profile_pic.jpg
   socialIcons:
+    - icon: fab fa-github
+      title: Github
+      url: https://www.github.com/pmamberti
     - icon: fab fa-twitter
       title: Twitter
       url: https://www.twitter.com/pmamberti
