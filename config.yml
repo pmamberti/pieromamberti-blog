@@ -1,13 +1,16 @@
 baseURL: 'https://blog.pieromamberti.com/'
-languageCode: en-us
+languageCode: en
 title: Piero's Blog
 theme: anatole
+summarylength: 5
+enableEmoji: true
+enableRobotsTXT: true
 
 params:
   title: Hi 🙋‍♂️I'm Piero 
   author: Piero Mamberti
-  description: I happen to work as an IT Engineer 🧑‍💻, but nothing serious 😅
-  profilePicture: images/profile_pic.jpg
+  description: I'm from Italy but I live in London. 🇮🇹 🇬🇧 I happen to work as an IT Engineer 🧑‍💻 But I promise nothing serious 😅
+  profilePicture: images/profile_pic.jpeg
   socialIcons:
     - icon: fab fa-github
       title: Github
@@ -18,18 +21,21 @@ params:
     - icon: fab fa-linkedin
       title: Linkedin
       url: https://www.linkedin.com/in/pmamberti
+    - icon: fas fa-envelope
+      title: email
+      url: mailto:piero.mamberti@gmail.com
 
 
-# menu:
-#   main:
-#     - name: Home
-#       identifier: home
-#       weight: 100
-#       url: /
-#     - name: Posts
-#       weight: 200
-#       identifier: posts
-#       url: /post/
+menu:
+  main:
+    - name: Home
+      identifier: home
+      weight: 100
+      url: /
+    - name: Posts
+      weight: 200
+      identifier: posts
+      url: /posts/
 #     - name: About
 #       weight: 300
 #       identifier: about
