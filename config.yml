@@ -9,7 +9,7 @@ enableRobotsTXT: true
 params:
   title: Hi 🙋‍♂️I'm Piero 
   author: Piero Mamberti
-  description: I'm from Italy but I live in London. 🇮🇹 🇬🇧 I happen to work as an IT Engineer 🧑‍💻 But I promise nothing serious 😅
+  description: 🇮🇹 in London 🇬🇧 I love 📚, 🍽 and 💬 I work with computers 🧑‍💻 Continuous learning is my mantra 🧘🏻‍♂️
   profilePicture: images/profile_pic.jpeg
   socialIcons:
     - icon: fab fa-github
@@ -36,7 +36,11 @@ menu:
       weight: 200
       identifier: posts
       url: /posts/
-#     - name: About
-#       weight: 300
-#       identifier: about
-#       url: /about/
+    - name: About
+      weight: 300
+      identifier: about
+      url: /about/
+    - name: CV
+      weight: 400
+      identifier: cv
+      url: /about/cd.md

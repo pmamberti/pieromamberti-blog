@@ -7,3 +7,5 @@ draft: false
 Just a test post.
 
 ### finito x3
+
+![Ciao](/images/profile_pic.jpeg)
