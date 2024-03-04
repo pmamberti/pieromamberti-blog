@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Un sito Hugo Finito</title>
-    <link>http://example.org/posts/</link>
-    <description>Recent content in Posts on Un sito Hugo Finito</description>
+    <title>Posts on Piero&#39;s Blog</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Piero&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 01 Jan 2021 16:41:27 +0100</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Thu, 07 Jan 2021 21:41:38 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
-      <link>http://example.org/posts/my-first-post/</link>
-      <pubDate>Fri, 01 Jan 2021 16:41:27 +0100</pubDate>
-      
-      <guid>http://example.org/posts/my-first-post/</guid>
-      <description>AAAAAAhhh sono finito!</description>
+      <title>Post</title>
+      <link>http://localhost:1313/posts/second_post_test/</link>
+      <pubDate>Thu, 07 Jan 2021 21:41:38 +0100</pubDate>
+      <guid>http://localhost:1313/posts/second_post_test/</guid>
+      <description>This is all fake and an edit.</description>
     </item>
-    
+    <item>
+      <title>Test Post</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Fri, 01 Jan 2021 16:41:27 +0100</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>Just a test post.&#xA;finito x3 </description>
+    </item>
   </channel>
 </rss>

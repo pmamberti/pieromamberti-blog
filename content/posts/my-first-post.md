@@ -8,4 +8,4 @@ Just a test post.
 
 ### finito x3
 
-This is not an edit.
+![Ciao](/images/profile_pic.jpeg)
